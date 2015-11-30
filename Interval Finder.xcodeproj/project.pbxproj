@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320710961C0CCC580034547B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320710951C0CCC580034547B /* AppDelegate.swift */; };
+		320710981C0CCC580034547B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320710971C0CCC580034547B /* ViewController.swift */; };
+		3207109B1C0CCC580034547B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320710991C0CCC580034547B /* Main.storyboard */; };
+		3207109D1C0CCC580034547B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3207109C1C0CCC580034547B /* Assets.xcassets */; };
+		320710A01C0CCC580034547B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3207109E1C0CCC580034547B /* LaunchScreen.storyboard */; };
+		320710AB1C0CCC590034547B /* Interval_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320710AA1C0CCC590034547B /* Interval_FinderTests.swift */; };
+		320710B61C0CCC590034547B /* Interval_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320710B51C0CCC590034547B /* Interval_FinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		320710A71C0CCC590034547B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3207108A1C0CCC580034547B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320710911C0CCC580034547B;
+			remoteInfo = "Interval Finder";
+		};
+		320710B21C0CCC590034547B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3207108A1C0CCC580034547B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320710911C0CCC580034547B;
+			remoteInfo = "Interval Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		320710921C0CCC580034547B /* Interval Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interval Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		320710951C0CCC580034547B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		320710971C0CCC580034547B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3207109A1C0CCC580034547B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3207109C1C0CCC580034547B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3207109F1C0CCC580034547B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		320710A11C0CCC580034547B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320710A61C0CCC590034547B /* Interval FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interval FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		320710AA1C0CCC590034547B /* Interval_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval_FinderTests.swift; sourceTree = "<group>"; };
+		320710AC1C0CCC590034547B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320710B11C0CCC590034547B /* Interval FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interval FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		320710B51C0CCC590034547B /* Interval_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval_FinderUITests.swift; sourceTree = "<group>"; };
+		320710B71C0CCC590034547B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3207108F1C0CCC580034547B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320710A31C0CCC590034547B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320710AE1C0CCC590034547B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		320710891C0CCC580034547B = {
+			isa = PBXGroup;
+			children = (
+				320710941C0CCC580034547B /* Interval Finder */,
+				320710A91C0CCC590034547B /* Interval FinderTests */,
+				320710B41C0CCC590034547B /* Interval FinderUITests */,
+				320710931C0CCC580034547B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		320710931C0CCC580034547B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320710921C0CCC580034547B /* Interval Finder.app */,
+				320710A61C0CCC590034547B /* Interval FinderTests.xctest */,
+				320710B11C0CCC590034547B /* Interval FinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320710941C0CCC580034547B /* Interval Finder */ = {
+			isa = PBXGroup;
+			children = (
+				320710951C0CCC580034547B /* AppDelegate.swift */,
+				320710971C0CCC580034547B /* ViewController.swift */,
+				320710991C0CCC580034547B /* Main.storyboard */,
+				3207109C1C0CCC580034547B /* Assets.xcassets */,
+				3207109E1C0CCC580034547B /* LaunchScreen.storyboard */,
+				320710A11C0CCC580034547B /* Info.plist */,
+			);
+			path = "Interval Finder";
+			sourceTree = "<group>";
+		};
+		320710A91C0CCC590034547B /* Interval FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				320710AA1C0CCC590034547B /* Interval_FinderTests.swift */,
+				320710AC1C0CCC590034547B /* Info.plist */,
+			);
+			path = "Interval FinderTests";
+			sourceTree = "<group>";
+		};
+		320710B41C0CCC590034547B /* Interval FinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				320710B51C0CCC590034547B /* Interval_FinderUITests.swift */,
+				320710B71C0CCC590034547B /* Info.plist */,
+			);
+			path = "Interval FinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		320710911C0CCC580034547B /* Interval Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320710BA1C0CCC590034547B /* Build configuration list for PBXNativeTarget "Interval Finder" */;
+			buildPhases = (
+				3207108E1C0CCC580034547B /* Sources */,
+				3207108F1C0CCC580034547B /* Frameworks */,
+				320710901C0CCC580034547B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interval Finder";
+			productName = "Interval Finder";
+			productReference = 320710921C0CCC580034547B /* Interval Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		320710A51C0CCC590034547B /* Interval FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320710BD1C0CCC590034547B /* Build configuration list for PBXNativeTarget "Interval FinderTests" */;
+			buildPhases = (
+				320710A21C0CCC590034547B /* Sources */,
+				320710A31C0CCC590034547B /* Frameworks */,
+				320710A41C0CCC590034547B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				320710A81C0CCC590034547B /* PBXTargetDependency */,
+			);
+			name = "Interval FinderTests";
+			productName = "Interval FinderTests";
+			productReference = 320710A61C0CCC590034547B /* Interval FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		320710B01C0CCC590034547B /* Interval FinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320710C01C0CCC590034547B /* Build configuration list for PBXNativeTarget "Interval FinderUITests" */;
+			buildPhases = (
+				320710AD1C0CCC590034547B /* Sources */,
+				320710AE1C0CCC590034547B /* Frameworks */,
+				320710AF1C0CCC590034547B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				320710B31C0CCC590034547B /* PBXTargetDependency */,
+			);
+			name = "Interval FinderUITests";
+			productName = "Interval FinderUITests";
+			productReference = 320710B11C0CCC590034547B /* Interval FinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3207108A1C0CCC580034547B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Robert McGinness";
+				TargetAttributes = {
+					320710911C0CCC580034547B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 747NE49RP5;
+					};
+					320710A51C0CCC590034547B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 747NE49RP5;
+						TestTargetID = 320710911C0CCC580034547B;
+					};
+					320710B01C0CCC590034547B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 747NE49RP5;
+						TestTargetID = 320710911C0CCC580034547B;
+					};
+				};
+			};
+			buildConfigurationList = 3207108D1C0CCC580034547B /* Build configuration list for PBXProject "Interval Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 320710891C0CCC580034547B;
+			productRefGroup = 320710931C0CCC580034547B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				320710911C0CCC580034547B /* Interval Finder */,
+				320710A51C0CCC590034547B /* Interval FinderTests */,
+				320710B01C0CCC590034547B /* Interval FinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		320710901C0CCC580034547B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320710A01C0CCC580034547B /* LaunchScreen.storyboard in Resources */,
+				3207109D1C0CCC580034547B /* Assets.xcassets in Resources */,
+				3207109B1C0CCC580034547B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320710A41C0CCC590034547B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320710AF1C0CCC590034547B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3207108E1C0CCC580034547B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320710981C0CCC580034547B /* ViewController.swift in Sources */,
+				320710961C0CCC580034547B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320710A21C0CCC590034547B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320710AB1C0CCC590034547B /* Interval_FinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320710AD1C0CCC590034547B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320710B61C0CCC590034547B /* Interval_FinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		320710A81C0CCC590034547B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 320710911C0CCC580034547B /* Interval Finder */;
+			targetProxy = 320710A71C0CCC590034547B /* PBXContainerItemProxy */;
+		};
+		320710B31C0CCC590034547B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 320710911C0CCC580034547B /* Interval Finder */;
+			targetProxy = 320710B21C0CCC590034547B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		320710991C0CCC580034547B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3207109A1C0CCC580034547B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3207109E1C0CCC580034547B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3207109F1C0CCC580034547B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		320710B81C0CCC590034547B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		320710B91C0CCC590034547B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		320710BB1C0CCC590034547B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Interval Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BHS.Interval-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		320710BC1C0CCC590034547B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Interval Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BHS.Interval-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		320710BE1C0CCC590034547B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Interval FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BHS.Interval-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interval Finder.app/Interval Finder";
+			};
+			name = Debug;
+		};
+		320710BF1C0CCC590034547B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Interval FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BHS.Interval-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interval Finder.app/Interval Finder";
+			};
+			name = Release;
+		};
+		320710C11C0CCC590034547B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Interval FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BHS.Interval-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Interval Finder";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		320710C21C0CCC590034547B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Interval FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BHS.Interval-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Interval Finder";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3207108D1C0CCC580034547B /* Build configuration list for PBXProject "Interval Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320710B81C0CCC590034547B /* Debug */,
+				320710B91C0CCC590034547B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320710BA1C0CCC590034547B /* Build configuration list for PBXNativeTarget "Interval Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320710BB1C0CCC590034547B /* Debug */,
+				320710BC1C0CCC590034547B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		320710BD1C0CCC590034547B /* Build configuration list for PBXNativeTarget "Interval FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320710BE1C0CCC590034547B /* Debug */,
+				320710BF1C0CCC590034547B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		320710C01C0CCC590034547B /* Build configuration list for PBXNativeTarget "Interval FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320710C11C0CCC590034547B /* Debug */,
+				320710C21C0CCC590034547B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3207108A1C0CCC580034547B /* Project object */;
+}
